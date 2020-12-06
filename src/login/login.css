@@ -15,6 +15,7 @@
 .puhchLine { margin: 0; font-size: 16px; font-weight: 400; color: rgba(255,255,255,1); line-height: 2rem; margin-bottom: 8px;}
 .loginBtn { display: flex; position: relative; padding: 16px 0; width: 100%;}
 .p-button {background-color: var(--buttonBlue); color:#fff; width: 100%;}
+.p-button:hover span, .p-button:focus span{color:#fff;}
 
 .inlineBlock > span { margin-right: 8px; color: #fff; font-size: 14px; text-transform: uppercase; }
 .copyRtTxt { color: rgba(255,255,255,0.5); margin: 0; font-size: 0.9rem; }
