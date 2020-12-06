@@ -1,0 +1,71 @@
+.homeWrapper {display: block; height: 100%; overflow-x: hidden; overflow-y: auto; width: 100%;}
+.homeContainer { display: flex; flex: 1; position: relative; background: #ffffff; min-height: 100%;}
+.homeCol2 { display: flex; position: relative; flex: 1; box-sizing: border-box; flex-direction: column; padding: 40px}
+.homeColG { display: flex; position: relative; flex: 1; box-sizing: border-box; flex-direction: column; padding: 0px}
+.bannerPort { align-items: center; justify-content: center; display: flex; flex: 1;background-color:var(--primaryColor); background-repeat: no-repeat; background-size: cover; position: relative; padding:0;}
+.loginPortLeft {background-color: var(--primaryColor); flex:0 0 auto; width:38%;}
+.absFade { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 0; background-color: rgba(0,0,0,0.5);}
+.brandingBlock {display: flex; align-items: center; justify-content: center; flex:0 0 auto;}
+.brandingLogo { width: 88px; display: flex; align-items: center; justify-content: center; z-index: 1; }
+.brandingLogo > img { width: 100%; height: auto; }
+.brandingName {display: flex;}
+.brandingName h2 {font-size: 32px; font-weight: 300; color:#fff; padding: 0 16px; margin: 0 0 0 16px; border-left: 1px solid #fff;}
+.headingLine { font-size: 2.1rem; font-weight: normal;margin-bottom: 40px;}
+.txtCenter {text-align: center !important;}
+.puhchLine { margin: 0; font-size: 16px; font-weight: 400; color: rgba(255,255,255,1); line-height: 2rem; margin-bottom: 8px;}
+.loginBtn { display: flex; position: relative; padding: 16px 0; width: 100%;}
+.p-button {background-color: var(--buttonBlue); color:#fff; width: 100%;}
+
+.inlineBlock > span { margin-right: 8px; color: #fff; font-size: 14px; text-transform: uppercase; }
+.copyRtTxt { color: rgba(255,255,255,0.5); margin: 0; font-size: 0.9rem; }
+.box475 { width: 475px; display: flex; align-items: flex-start; padding:80px; flex: 1 1 auto;
+    justify-content: center;}
+.tcAnchor { text-decoration: underline; color: #ffffff; margin: 0; display: flex;margin-left: 8px;}
+.tcRtTxt {color: rgba(255,255,255,0.5); margin: 0; font-size: 0.9rem; display: flex; }
+
+.bannerImg {width: auto;
+    background-color: #203549;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+.bannerImg img {width:100%; height: auto;}
+.bannerImg .bottmTxt {position: absolute; bottom:118px;}
+.bannerImg p{color:#fff; font-size: 24px;}
+.bannerImg small{color:rgba(255,255,255,0.72); font-size: 16px; margin-top: 16px;}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {background: #192b3a; opacity:1;}
+.carousel .control-dots .dot {background: #a9c2d6;}
+
+
+.responsiveLogin {display: none;}
+
+
+@media (min-width: 240px) and (max-width: 767px) {
+    .responsiveLogin {display: flex; background-color: var(--primaryColor); display: flex; flex: 1; position: relative;min-height: 100%;}
+    .loginPortLeft {background-color: transparent; flex:0 0 auto; width:100%; padding: 24px 16px;}
+    .hideInMob {display: none;}
+    .brandingName h2 {font-size: 24px; }
+    .bannerImg {width: 100%;
+        height: auto;}
+    .box475 {padding:24px 40px; width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 1112px) {
+    .responsiveLogin {display: flex; background-color: var(--primaryColor); display: flex; flex: 1; position: relative;min-height: 100%;}
+    .loginPortLeft {background-color: transparent; flex:0 0 auto; width:100%; padding: 24px 16px;}
+    .hideInMob {display: none;}
+    .brandingName h2 {font-size: 24px; }
+    .bannerImg {width: 100%;
+        height: auto;}
+    .box475 {padding:24px 40px; width: 100%;}
+}
+
+@media (min-width: 1113px ) and ( max-width: 1366px ) {
+    .responsiveLogin {display: none; }
+}
+
+@media (min-width: 1367px ) {
+    .responsiveLogin {display: none; }
+}
