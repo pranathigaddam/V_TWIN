@@ -15,7 +15,7 @@ function Login() {
             <div className="contentBodyBlock box475 flexCol">
                 <h2 className="puhchLine">Login</h2>
                 <div className="loginBtn">
-                    <Button label="Login with SSO" />
+                    <Button label="Login with SSO" to="/dashboard" />
                 </div>
             </div>
         )
